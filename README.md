@@ -5,7 +5,7 @@
 - Definition of machine learning
 - Types of machine leaning
 - Examples of algorithms
-- Maching Learning lyf cycle
+- Maching Learning life cycle
 - Main Challenge in machine learning
 
 ### Data source, preperation and preprocessing
@@ -28,3 +28,16 @@
 - Validation
 
 ### Summary
+
+## Run App locally
+
+#### Steps
+
+- Create virtual environment
+- activate virtual environment
+- run
+  ```
+  (venv)$ cd server
+  (venv)$ pip install -r requirements.txt
+  (venv)$ python app.py
+  ```
