@@ -37,7 +37,7 @@ def home():
 
 @app.route('/predict',methods = ['Post'])
 def predict():
-    model_path = '../training/model/regressor.pkl'
+    from wsgi import model_path
     data = request.json
     results = make_predict(load_model(model_path),get_desired_output())
     return json.dumps({
