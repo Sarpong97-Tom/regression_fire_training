@@ -21,7 +21,7 @@ lockfile==0.12.2
 MarkupSafe==1.1.1
 matplotlib
 msgpack==0.6.2
-numpy==1.20.2
+numpy
 packaging==20.3
 pandas==1.2.3
 pep517==0.8.2
